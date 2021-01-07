@@ -13,4 +13,9 @@ export class ButtonsComponent implements OnInit {
 
    ngOnInit() { }
 
+   allDeactivate(){
+      if ((click)=true){
+         this.inactive=true
+      }
+   }
 }
